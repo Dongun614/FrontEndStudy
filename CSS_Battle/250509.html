@@ -7,9 +7,11 @@
 </head>
 <body>
     <div class="whole">
-        <div class="first-circle"/>
-        <div class="first-rec"/>
-        <div class="second-circle"/>
+        <div class="rectangle1"/>
+        <div class="rectangle2"/>
+        <div class="circle"/>
+        <div class="blue_rec"/>
+        <div class="rectangle3"/>
       </div>
       <style>
         body{
@@ -19,41 +21,58 @@
           justify-content: center;
           align-items: center;
         }
-        
-        .whole {
+      
+        .whole{
           width: 400px;
           height: 300px;
-          background: #0A4756;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          background-color: #4F77FF;
+          position: relative;
         }
       
-        .first-circle{
-          width: 240px;
-          height: 240px;
-          border-radius: 50%;
-          background-color: #5A9F48;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+        .rectangle1{
+          width: 140px;
+          height: 20px;
+          background-color: #FFFFFF;
+          position: absolute;
+          top: 60px;
+          left: 130px;
         }
       
-        .first-rec{
+        .rectangle2{
+          width: 140px;
+          height: 20px;
+          background-color: #FFFFFF;
+          position: absolute;
+          top: 30px;
+        }
+      
+        .rectangle3{
+          width: 20px;
+          height: 70px;
+          background-color: #FFFFFF;
+          position: absolute;
+          top: -20px;
+          left: 10px;
+        }
+      
+        .circle{
           width: 120px;
           height: 120px;
-          background-color: #0A4756;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-      
-        .second-circle{
-          width: 100px;
-          height: 100px;
-          background-color: #5A9F48;
+          background-color: #FFFFFF;
+          position: absolute;
+          top: 30px;
+          left: 10px;
           border-radius: 50%;
         }
+      
+        .blue_rec{
+          width: 40px;
+          height: 60px;
+          background-color: #4F77FF;
+          position: absolute;
+          left: 40px;
+        }
+        
       </style>
 </body>
 </html>
