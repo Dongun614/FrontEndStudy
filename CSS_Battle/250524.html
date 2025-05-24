@@ -7,92 +7,95 @@
 </head>
 <body>
     <div class="whole">
-  <div class="col_rec1"/>
-  <div class="col_rec2"/>
-  <div class="col_rec3"/>
-  <div class="diagonal_rec1"/>
-  <div class="diagonal_rec2"/>
-  <div class="diagonal_rec3"/>
-  <div class="diagonal_rec4"/>
-  <div class="diagonal_rec5"/>
+  <div class="clock_chain"/>
+  <div class="clock"/>
+  <div class="mini-clock">
+    <div class="hourhand1"/>
+    <div class="hourhand2"/>
+    <div class="hourhand3"/>
+    <div class="hourhand4"/>
+  </div>
 </div>
 <style>
-  body{
-    padding: 0px;
+  body {
     margin: 0px;
+    padding: 0px;
   }
-  
-  .whole {
+
+  .whole{
     width: 400px;
     height: 300px;
+    background-color: #D95F5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .col_rec1{
+  .clock_chain{
     width: 60px;
-    height: 300px;
-    background-color: #243D83;
-    margin-left: 33px;
+    height: 220px;
+    background-color: #282828;
+    border-radius: 50px;
   }
 
-  .col_rec2{
-    width: 60px;
-    height: 300px;
-    background-color: #243D83;
-    margin-left: 137px;
-  }
-
-  .col_rec3{
-    width: 60px;
-    height: 300px;
-    background-color: #243D83;
-    margin-left: 134px;
-  }
-  
-
-  .diagonal_rec1{
-    width: 60px;
-    height: 500px;
+  .clock{
+    width: 100px;
+    height: 100px;
+    background-color: #282828;
     position: absolute;
-    background-color: #243D83;
-    right: 450px;
-    rotate: 135deg;
+    left: 150px;
+    top: 100px;
+    border-radius: 50%;
   }
 
-  .diagonal_rec2{
+  .mini-clock{
     width: 60px;
-    height: 500px;
+    height: 60px;
+    background-color: #D95F5B;
     position: absolute;
-    background-color: #243D83;
-    right: 135px;
-  }
-  
-  .diagonal_rec3{
-    width: 60px;
-    height: 500px;
-    position: absolute;
-    background-color: #243D83;
-    bottom: 130px;
-    right: 133px;
+    left: 20px;
+    top: 20px;
+    border-radius: 50%;
   }
 
-  .diagonal_rec4{
-    width: 60px;
-    height: 500px;
+  .hourhand1{
+    width: 6px;
+    height: 10px;
+    background-color: #282828;
     position: absolute;
-    background-color: #243D83;
-    bottom: 100px;
-    right: 135px;
+    left: 27px;
+    top: 5px;
   }
 
-  .diagonal_rec5{
-    width: 60px;
-    height: 500px;
+  .hourhand2{
+    width: 6px;
+    height: 10px;
+    background-color: #282828;
     position: absolute;
-    background-color: #243D83;
-    bottom: 100px;
-    right: 135px;
+    left: 20px;
+    top: 20px;
+    rotate: 90deg;
   }
 
+  .hourhand3{
+    width: 6px;
+    height: 10px;
+    background-color: #282828;
+    position: absolute;
+    rotate: 90deg;
+    left: 20px;
+    top: 20px;
+  }
+
+  .hourhand4{
+    width: 6px;
+    height: 10px;
+    background-color: #282828;
+    position: absolute;
+    rotate: 90deg;
+    left: 20px;
+    top: 20px;
+  }
 </style>
 </body>
 </html>
