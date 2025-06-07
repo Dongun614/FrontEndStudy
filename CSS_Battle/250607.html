@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="whole">
+  <div class="long_stick_top"/>
+  <div class="long_stick_bottom"/>
+  <div class="long_stick_left"/>
+  <div class="long_stick_right"/>
+  <div class="center_std"/>
+  <div class="center_rotate"/>
+  <div class="center_rotate"/>
+  <div class="center_rotate"/>
+</div>
+<style>
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .whole{
+    width: 400px;
+    height: 300px;
+    background-color: #5AA4B7;
+    position: relative;
+  }
+
+  .long_stick_top{
+    width: 200px;
+    height: 20px;
+    background-color: #000000;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    border-radius: 10px;
+  }
+
+  .long_stick_bottom{
+    width: 200px;
+    height: 20px;
+    background-color: #000000;
+    position: absolute;
+    top: 140px;
+    border-radius: 10px;
+  }
+  
+  .long_stick_left{
+    width: 20px;
+    height: 200px;
+    background-color: #000000;
+    position: absolute;
+    left: 20px;
+    bottom: -20px;
+    border-radius: 10px;
+  }
+
+  .long_stick_right{
+    width: 20px;
+    height: 200px;
+    background-color: #000000;
+    position: absolute;
+    left: 140px;
+    border-radius: 10px;
+  }
+
+  .center_std{
+    width: 20px;
+    height: 80px;
+    background-color: #000000;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    border-radius: 10px;
+  }
+
+  .center_rotate{
+    width: 20px;
+    height: 80px;
+    background-color: #000000;
+    position: absolute;
+    transform: rotate(45deg);
+    border-radius: 10px;
+  }
+</style>
+
+</body>
+</html>
