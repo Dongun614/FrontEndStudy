@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="whole">
+  <div class="total_sq"></div>
+  <div class="bottom_left"></div>
+  <div class="top_right"></div>
+</div>
+<style>
+  body{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .whole{
+    width: 400px;
+    height: 300px;
+    background-color: #B6EBE7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .total_sq{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    background-color: #9382E4;
+    border-bottom-left-radius: 50%;
+  }
+
+  .bottom_left{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-color: #5E2BB7;
+    right: 200px;
+    top: 150px;
+    border-bottom-left-radius: 99%;
+  }
+
+  .top_right{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: red;
+    left: 240px;
+    top: 70px;
+    background-color: #5E2BB7;
+  }
+</style>
+</body>
+</html>
