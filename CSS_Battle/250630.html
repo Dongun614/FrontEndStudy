@@ -6,6 +6,81 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="whole">
+  <div class="container">
+    <div class="line">
+      <div class="node"></div>
+      <div class="node"></div>
+      <div class="node"></div>
+    </div>
+    <div class="line">
+      <div class="node2"></div>
+      <div class="node2"></div>
+      <div class="node2"></div>
+    </div>
+    <div class="line">
+      <div class="node3"></div>
+      <div class="node3"></div>
+      <div class="node3"></div>
+    </div>
+    <div class="line">
+      <div class="node2"></div>
+      <div class="node2"></div>
+      <div class="node2"></div>
+    </div>
+    <div class="line">
+      <div class="node"></div>
+      <div class="node"></div>
+      <div class="node"></div>
+    </div>
+  </div>
+</div>
+<style>
+  body{
+   margin: 0px;
+  }
+
+  .whole{
+    width: 400px;
+    height: 300px;
+    background-color: #FADE8B;
+  }
+
+  .container{
+    display: flex;
+    position: relative;
+    left: 45px;
+    top: 50px
+  }
+
+  .line{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+  }
+
+  .node{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #D24444;
+    margin-bottom: 25px;
+  }
+
+  .node2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #556D7F;
+    margin-bottom: 25px;
+  }
+
+  .node3{
+    width: 50px;
+    height: 50px;
+    background-color: #556D7F;
+    margin-bottom: 25px;
+  }
+</style>
 </body>
 </html>
